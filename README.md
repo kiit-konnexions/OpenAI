@@ -1,13 +1,37 @@
-# GitHub Codespaces ♥️ Next.js
+# A web qna site made using OpenAI-API
 
-Welcome to your shiny new Codespace running Next.js! We've got everything fired up and running for you to explore Next.js.
+This is an response generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+## Setup
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+1. If you don’t have Node.js installed, [install it from here](https://nodejs.org/en/)
 
-To run this application:
+2. Clone this repository
 
-```
-npm run dev
-```
+3. Navigate into the project directory
+
+   ```bash
+   $ cd OpenAI
+   ```
+
+4. Install the requirements
+
+   ```bash
+   $ npm install
+   ```
+
+5. Make a copy of the example environment variables file
+
+   ```bash
+   $ cp .env.example .env
+   ```
+
+6. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
+
+7. Run the app
+
+   ```bash
+   $ npm run dev
+   ```
+
+You should now be able to access the app at [http://localhost:3000](http://localhost:3000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
